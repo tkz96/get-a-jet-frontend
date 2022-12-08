@@ -1,6 +1,7 @@
 /* eslint-disable */
 import { NavLink } from 'react-router-dom';
 import logo from '../../logo/jet-log/png/logo-color.png';
+import Authentication from '../Authentication';
 
 const NavLinks = ({ isOpen, setIsOpen }) => (
   <ul className="holder">
@@ -48,6 +49,9 @@ const NavLinks = ({ isOpen, setIsOpen }) => (
         Delete a Plane
       </NavLink>
     </li>
+     <li>
+        <Authentication />
+      </li>
   </ul>
 );
 
