@@ -103,24 +103,12 @@ Object {
               <li
                 class="user-auth-links"
               >
-                <a
-                  class="link"
-                  href="/login"
+                <button
+                  class="nav-link bg-light border-0 ps-3 btn btn-primary"
+                  type="button"
                 >
-                  Login
-                </a>
-                <a
-                  class="link"
-                  href="/signup"
-                >
-                  Signup
-                </a>
-                <a
-                  class="link"
-                  href="/logout"
-                >
-                  Logout
-                </a>
+                  Sign In
+                </button>
               </li>
               <li
                 class="social-links"
@@ -311,24 +299,12 @@ Object {
             <li
               class="user-auth-links"
             >
-              <a
-                class="link"
-                href="/login"
+              <button
+                class="nav-link bg-light border-0 ps-3 btn btn-primary"
+                type="button"
               >
-                Login
-              </a>
-              <a
-                class="link"
-                href="/signup"
-              >
-                Signup
-              </a>
-              <a
-                class="link"
-                href="/logout"
-              >
-                Logout
-              </a>
+                Sign In
+              </button>
             </li>
             <li
               class="social-links"
