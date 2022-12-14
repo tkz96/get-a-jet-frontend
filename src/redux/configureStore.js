@@ -1,17 +1,16 @@
 /* eslint-disable */
 import { configureStore } from '@reduxjs/toolkit';
-import { combineReducers } from 'redux';
 import thunk from 'redux-thunk';
-import aeroplaneReducer from './aeroplanes/addAeroplanes';
+import addAeroplaneReducer from './aeroplanes/addAeroplanes';
 
 const rootReducer = combineReducers({
-  aeroplanes: aeroplaneReducer,
+  addAeroplanes: addAeroplaneReducer,
   /* add reducers here */
 });
 
 const store = configureStore({
+  reducer: aeroplanesReducer,
   middleware: [thunk],
-  reducer: rootReducer,
 });
 
 export default store;
